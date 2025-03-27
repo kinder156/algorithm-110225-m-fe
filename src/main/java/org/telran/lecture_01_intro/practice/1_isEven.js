@@ -7,6 +7,7 @@
 // 4. Иначе, вывести "нечетное".
 
 // Решение
+<<<<<<< HEAD
 
 let n = -8;
  
@@ -31,3 +32,11 @@ let n = -8;
    if(string===reversed){
       console.log()
    }
+=======
+const n = -8;
+if (n % 2 === 0){
+    console.log("Четное")
+}else{
+    console.log("Нечетное")
+}
+>>>>>>> e7e0f2818adb03acd8f67bab269ee191631e13d7
